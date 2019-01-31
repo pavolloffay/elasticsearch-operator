@@ -86,7 +86,7 @@ func elasticsearchFullClusterTest(t *testing.T, f *framework.Framework, ctx *fra
 			elasticsearch.ElasticsearchRoleMaster,
 		},
 		NodeCount: int32(1),
-		Storage: elasticsearch.ElasticsearchStorageSpec{ },
+		Storage:   elasticsearch.ElasticsearchStorageSpec{},
 	}
 
 	// create clusterlogging custom resource

@@ -11,4 +11,3 @@ done
 oc delete -n openshift is elasticsearch-operator || :
 oc delete -n openshift bc elasticsearch-operator || :
 
-oc delete namespace ${NAMESPACE} ||:
